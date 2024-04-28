@@ -8,9 +8,9 @@ type User {
   dateOfBirth: String
 }
 
-type Query {
-  users: [User]
-}
+# type Query {
+#   # users: [User]
+# }
 
 input createUserInput {
   firstName: String!
@@ -21,6 +21,6 @@ input createUserInput {
   dateOfBirth: String
 }
 
-type Mutation {
-  createUser(data: createUserInput): User
-}
+# type Mutation {
+#   # createUser(data: createUserInput): User
+# }
